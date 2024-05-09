@@ -6,4 +6,4 @@ Time-LLM: Time Series Forecasting by Reprogramming Large Language Models. ArXiv 
 
 ## Other Methods about TS.
 TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis. ArXiv 2022/10/05, ICLR2023. [[paper]](https://openreview.net/forum?id=ju_Uqw384Oq)[[code]](https://github.com/thuml/Time-Series-Library/blob/main/models/TimesNet.py)
-- This paper use a CNN-based model for general time series analysis. It is the main baseline of "One Fits All", ICLR 2024.
+- This paper uses a CNN-based model for **general time series analysis**. It is the main baseline of "One Fits All", ICLR 2024.
