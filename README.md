@@ -4,6 +4,7 @@ One Fits All: Power General Time Series Analysis by Pretrained LM. ArXiv 2023/02
 - The main challenge that blocks the development of pre-trained model for time series analysis is the lack of a large amount of data for training. This paper proposes to **retrain positional embedding and layer normalization layers of pre-trained transformer models while fine-tuning**. The results show that pre-trained models on natural language or images can lead to a comparable or state-of-the-art performance in all main time series analysis tasks.
 
 TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series. ArXiv 2023/08/16. ICLR 2024. [[paper]](https://openreview.net/forum?id=Tuh4nZVb0g)[[code]](https://github.com/SCXsunchenxi/TEST)
+- This paper use contrastive learning to build TS embeddings, then prompts to make the LLM can accept TS embeddings as input.
 
 Time-LLM: Time Series Forecasting by Reprogramming Large Language Models. ArXiv 2023/10/03, ICLR 2024. [[paper]](https://openreview.net/forum?id=Unb5CVPtae)[[code]](https://github.com/KimMeen/Time-LLM)
 - This paper proposes to reprogram the input time series with text prototypes before feeding it into the frozen LLMs. What's more, to augment the LLM’s ability to reason with time series data, they propose Prompt-as-Prefix (PaP), which enriches the input context and directs the transformation of reprogrammed input patches.
